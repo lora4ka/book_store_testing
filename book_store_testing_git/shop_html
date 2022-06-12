@@ -1,0 +1,202 @@
+#from selenium import webdriver
+#rom selenium.webdriver.support import expected_conditions as EC
+#from selenium.webdriver.common.by import By
+
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#my_account = driver.find_element_by_css_selector("#menu-item-50 > a").click()
+#username = driver.find_element_by_id("username")
+#username.send_keys("lora_88-06@mail.ru")
+#login_password = driver.find_element_by_id("password")
+#login_password.send_keys('"njrfrjqnj,htl')
+#login_btn = driver.find_element_by_css_selector("#customer_login > div.u-column1.col-1 > form > p:nth-child(3) > input.woocommerce-Button.button").click()
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#forms = driver.find_element_by_xpath('//*[@id="content"]/ul/li[3]/a[1]/h3').click()
+#html_5_forms = (EC.text_to_be_present_in_element((By.CSS_SELECTOR,'#menu-item-40 > a'),"HTML5 Forms"))
+#driver.quit()
+
+
+
+#from selenium import webdriver
+
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#my_account = driver.find_element_by_css_selector("#menu-item-50 > a").click()
+#username = driver.find_element_by_id("username")
+#username.send_keys("lora_88-06@mail.ru")
+#login_password = driver.find_element_by_id("password")
+#login_password.send_keys('"njrfrjqnj,htl')
+#login_btn = driver.find_element_by_css_selector("#customer_login > div.u-column1.col-1 > form > p:nth-child(3) > input.woocommerce-Button.button").click()
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#html = driver.find_element_by_css_selector("#woocommerce_product_categories-2 > ul > li.cat-item.cat-item-19 > a").click()
+#element = driver.find_element_by_css_selector("#woocommerce_product_categories-2 > ul > li.cat-item.cat-item-19.current-cat > span")
+#element_get_text = element.text
+#assert "3" in element_get_text
+#driver.quit()
+
+
+#from selenium import webdriver
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#my_account = driver.find_element_by_css_selector("#menu-item-50 > a").click()
+#username = driver.find_element_by_id("username")
+#username.send_keys("lora_88-06@mail.ru")
+#login_password = driver.find_element_by_id("password")
+#login_password.send_keys('"njrfrjqnj,htl')
+#login_btn = driver.find_element_by_css_selector("#customer_login > div.u-column1.col-1 > form > p:nth-child(3) > input.woocommerce-Button.button").click()
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#element = driver.find_element_by_css_selector('[value="menu_order"]')
+
+#if element == driver.find_element_by_css_selector('[value="menu_order"]'):
+ #   print("сортировка по умолчанию")
+#else:
+ #   print ("Другая сортировка")
+
+#high = driver.find_element_by_css_selector("#content > form > select > option:nth-child(6)").click()
+
+#element_new = driver.find_element_by_css_selector("#content > form > select > option:nth-child(1)")
+
+#high = driver.find_element_by_css_selector("[value='price-desc']")
+#if high == driver.find_element_by_css_selector("[value='price-desc']"):
+#    print ("От большей к меньшей")
+#else:
+#    print ("Не верная выборка")
+#driver.quit()
+
+
+
+#from selenium import webdriver
+#from selenium.webdriver.support import expected_conditions as EC
+#from selenium.webdriver.common.by import By
+#from selenium.webdriver.support.wait import WebDriverWait
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#driver.implicitly_wait(15)
+#my_account = driver.find_element_by_css_selector("#menu-item-50 > a").click()
+#username = driver.find_element_by_id("username")
+#username.send_keys("lora_88-06@mail.ru")
+#login_password = driver.find_element_by_id("password")
+#login_password.send_keys('"njrfrjqnj,htl')
+#login_btn = driver.find_element_by_css_selector("#customer_login > div.u-column1.col-1 > form > p:nth-child(3) > input.woocommerce-Button.button").click()
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#ndroid_quick = driver.find_element_by_css_selector(".post-169 h3").click()
+#old_price = driver.find_element_by_css_selector(".price>del>span")
+#old_price_text = old_price.text
+#new_price = driver.find_element_by_css_selector(".price>ins>span")
+#new_price_text = new_price.text
+
+#assert old_price_text == "₹600.00"
+#assert new_price_text == "₹450.00"
+
+#book_cover = WebDriverWait(driver,15).until(EC.element_to_be_clickable((By.CSS_SELECTOR,".images"))).click()
+#book_cover_close = WebDriverWait(driver,15).until(EC.element_to_be_clickable((By.CSS_SELECTOR,".pp_close"))).click()
+
+#driver.quit()
+
+
+
+
+#from selenium import webdriver
+#from selenium.webdriver.common.by import By
+#from selenium.webdriver.support import expected_conditions as EC
+#from selenium.webdriver.common.by import By
+#from selenium.webdriver.support.wait import WebDriverWait
+
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#driver.implicitly_wait(15)
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#html_webapp = driver.find_element_by_xpath('//*[@id="content"]/ul/li[4]/a[2]').click()
+#item = driver.find_element_by_css_selector("#wpmenucartli > a > span.cartcontents")
+#item_text = item.text
+#price = driver.find_element_by_css_selector("#wpmenucartli > a > span.amount")
+#price_text = price.text
+#assert item_text == "1 item"
+#assert price_text == "₹180.00"
+#cart = driver.find_element_by_css_selector("#wpmenucartli > a > i")
+#cart.click()
+#subtotal = WebDriverWait(driver,15).until(EC.text_to_be_present_in_element((By.CLASS_NAME,"cart-subtotal"),"₹180.00"))
+#total =  WebDriverWait(driver,15).until(EC.text_to_be_present_in_element((By.CLASS_NAME,"order-total"),"₹189.00"))
+#driver.quit()
+
+
+
+#from selenium import webdriver
+#import time
+
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#driver.implicitly_wait(15)
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#driver.execute_script("window.scrollBy(0, 300);")
+#html_webapp = driver.find_element_by_xpath('//*[@id="content"]/ul/li[4]/a[2]').click()
+#time.sleep(3)
+#js_data =  driver.find_element_by_xpath('//*[@id="content"]/ul/li[5]/a[2]').click()
+#cart = driver.find_element_by_css_selector("#wpmenucartli > a > i")
+#cart.click()
+#time.sleep(3)
+#delete = driver.find_element_by_css_selector("tbody > tr:nth-child(1) > td.product-remove > a").click()
+#undo = driver.find_element_by_css_selector("div.woocommerce-message > a").click()
+#quantity = driver.find_element_by_css_selector(" tbody > tr:nth-child(1) > td.product-quantity > div > input")
+#driver.find_element_by_css_selector('tbody > tr:nth-child(1) > td.product-quantity > div > input').clear()
+#quantity.send_keys(3)
+#update_basket =driver.find_element_by_css_selector("tbody > tr:nth-child(3) > td > input.button")
+#update_basket.click()
+
+#quantity = driver.find_element_by_css_selector("tbody > tr:nth-child(1) > td.product-quantity > div > input")
+#quantity_text = quantity.text
+#assert quantity_text == "value=3"
+#time.sleep(3)
+#apply_coupon = driver.find_element_by_css_selector("tbody > tr:nth-child(3) > td > div > input.button").click()
+#please_enter = driver.find_element_by_css_selector("div.woocommerce > ul > li")
+#please_enter_text = please_enter.text
+#please_enter_text = "Please enter a coupon code."
+#driver.quit()
+
+
+#from selenium import webdriver
+#from selenium.webdriver.common.by import By
+#from selenium.webdriver.support.wait import WebDriverWait
+#from selenium.webdriver.support import expected_conditions as EC
+
+#driver = webdriver.Chrome(executable_path='C:/chromedriver')
+#driver.maximize_window()
+#driver.get("http://practice.automationtesting.in/")
+#driver.implicitly_wait(15)
+#shop = driver.find_element_by_css_selector("#menu-item-40 > a").click()
+#driver.execute_script("window.scrollBy(0, 300);")
+#html_webapp = driver.find_element_by_xpath('//*[@id="content"]/ul/li[4]/a[2]').click()
+#cart = driver.find_element_by_css_selector("#wpmenucartli > a > i").click()
+#proceed_to =  WebDriverWait(driver,15).until(EC.element_to_be_clickable((By.CSS_SELECTOR,"div.woocommerce > div > div > div > a"))).click()
+#first_name = WebDriverWait(driver,15).until(EC.element_to_be_clickable((By.ID,"billing_first_name")))
+#first_name.send_keys("firstname")
+#last_name = driver.find_element_by_id("billing_last_name")
+#last_name.send_keys("lastname")
+#email = driver.find_element_by_id("billing_email")
+#email.send_keys("mail@mail.ru")
+#phone = driver.find_element_by_id("billing_phone")
+#phone.send_keys("89252525265")
+#country = driver.find_element_by_css_selector("#s2id_billing_country > a")
+#country.click()
+#country_print = driver.find_element_by_id("s2id_autogen1_search")
+#country_print.send_keys("Russia")
+#Russia = driver.find_element_by_css_selector('#billing_country > option:nth-child(183)').click()
+#adress = driver.find_element_by_xpath('//*[@id="billing_address_1"]')
+#adress.send_keys("street")
+#town = driver.find_element_by_xpath('//*[@id="billing_city"]')
+#town.send_keys("city")
+#state = driver.find_element_by_xpath('//*[@id="billing_state"]')
+#state.send_keys("state")
+#poctcode = driver.find_element_by_xpath('//*[@id="billing_postcode"]')
+#poctcode.send_keys("123456")
+#driver.execute_script("window.scrollBy(0, 600);")
+#place_order = driver.find_element_by_id("place_order").click()
+#thank_you = WebDriverWait(driver,15).until(EC.text_to_be_present_in_element((By.CLASS_NAME,"woocommerce-thankyou-order-received"),"Thank you. Your order has been received."))
+#payment =  WebDriverWait(driver,15).until(EC.text_to_be_present_in_element((By.CSS_SELECTOR,"ul.woocommerce-thankyou-order-details.order_details > li.method"),"Direct Bank Transfer"))
+#driver.quit()
